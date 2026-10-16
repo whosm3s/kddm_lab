@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/
+*.duckdb
+*.duckdb.wal
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
