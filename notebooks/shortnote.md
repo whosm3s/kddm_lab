@@ -1,0 +1,3 @@
+# Short Note
+
+The `customers` table has two identifiers. `customer_id` identifies a customer record, while `customer_unique_id` helps identify the same customer across different records. Therefore I would use `customer_unique_id` to count unique customers. The `order_items` table is a junction table because it connects orders, products and sellers, showing which products were sold in each order and by which sellers. The relationship between `orders` and `order_items` is zero-to-many because some orders have no items, while others have several. The circle in the ERD represents this possibility of having zero items, which is confirmed by the data.
